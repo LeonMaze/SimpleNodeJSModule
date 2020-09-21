@@ -1,6 +1,7 @@
 # SimpleNodeJSModule
 Create folder
 Run
+
 ```ruby
 npm init
 ```
@@ -23,7 +24,8 @@ Package.json
 ```
 
 Create file index.js
-```Ruby
+
+```ruby
 const rect = require("./rectangle");
 
 function solveRect(w, h) {
@@ -38,7 +40,7 @@ solveRect(5, 2);
 
 Create file rectangle.js
 
-```Ruby
+```ruby
 module.exports = {
   perimetr: (x, y) => 2 * (x + y),
   area: (x, y) => x * y,
