@@ -46,3 +46,8 @@ module.exports = {
   area: (x, y) => x * y,
 };
 ```
+
+Run to start application
+```ruby
+npm start
+```
