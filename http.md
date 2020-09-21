@@ -19,3 +19,8 @@ server.listen(port, hostname, () => {
   console.log(`SerVER running at http://${hostname}:${port}`);
 });
 ```
+
+To GET information type in the console
+```ruby
+curl http://localhost:7000 
+```
