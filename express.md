@@ -74,7 +74,7 @@ server.listen(port, hostname, () => {
 ```
 
 
-Test POST command in the Command Line with code
+Test POST command in the Command Line with code to http://127.0.0.1:7000/secret
 ```ruby
 curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"name":"test", "description": "te
 st POS"}' http://127.0.0.1:7000/secret
